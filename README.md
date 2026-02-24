@@ -6,7 +6,7 @@ This program runs in the command line. To use it, you must compile it using the 
 
 In the command line, execute `text_replacer` followed 2 additional arguments - an input and output file. An input file may look like this:
 
-`DEF A 2 3 [1, 2, 3; 4, 5, 6]<br>
+DEF A 2 3 [1, 2, 3; 4, 5, 6]<br>
 DEF B 2 3 [7, 8, 9; 10, 11, 12]<br>
 DEF C 3 1 [100; 101; 102;]<br>
 EVAL D ADD A B<br>
@@ -14,6 +14,6 @@ EVAL E SUB A B<br>
 EVAL F MUL A C<br>
 PRINT D<br>
 PRINT E<br>
-PRINT F`
+PRINT F
 
 Each instruction must begin with `DEF`, `EVAL` or `PRINT`. `DEF` defines a new matrix from given numbers, `EVAL` defines a new matrix from an operation and `PRINT` prints a matrix to the output file.
